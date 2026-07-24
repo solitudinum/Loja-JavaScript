@@ -1,0 +1,80 @@
+
+    body{
+        text-align: center;
+        background-color: rgb(21, 21, 97);
+        padding: 30px;
+        margin: 30px;
+    }
+    button{
+        color: rgb(29, 29, 29);
+        background-color: rgb(252, 248, 248);
+        padding: 8px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    p{
+        margin-top: 20px;
+    }
+    #saldo{
+         text-align: left;
+         position:absolute;
+         top:2px;
+         left:20px;
+        }
+
+    #loja{
+        display:flex;
+        justify-content: center;
+        gap:200px;
+    }
+
+        
+
+    .produtos{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .produto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background: rgb(24, 24, 65); /*cor do fundo*/
+        padding:20px;  /*espaco entre a borda e o conteudo*/
+        border-radius: 15px; /*deixa arredondado*/
+
+        width: 320px; /*faz tudo ter a mesma largura */
+
+        box-shadow: 0px 0px 15px black; /* dá uma sombra*/
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .produto img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    #carrinho{
+        text-align: right; /*direcao em que fica*/
+         position:absolute;
+         top:2px; /*distancia do topo*/
+         right: 20px; /* distancia da borda */
+
+    }
+
+    #carro{
+        text-align: left;
+        position: absolute;
+        top:60px;
+        left: 20px;
+    };
