@@ -1,0 +1,58 @@
+<html>
+    <link rel="stylesheet" href="pagina.css">
+<style>
+
+</style>
+
+<body>
+    <div id="painel">
+        <h2 id="saldo">`💰 Saldo: R$ 600,00`</h2>
+        <h2 id="carrinho">🛒Items no carrinho: 0</h2>
+
+        <div id="carro">
+        <h2>___________</h2>
+        <h2>🛒Carrinho</h2>
+        <h4 id="produtocarro">Nenhum produto</h4>
+        <h3 id="total">Total: R$0</h3>
+        <button onclick="remover()">Remover</button>
+        </div>
+
+    </div>
+
+<div  class="produtos">
+
+<div  class="produto">                  <!-- pra comentarios-->
+<h1>Anão Venezualo premium - Não passa fome</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xtrFsK7WTcXS-ntqmUKiuSOa7M6I0Gjb9rxZdhvkCQ&s=10">
+<h2>R$299,00</h2>
+<h2 id="estoque">Estoque:10</h2>
+
+<div class="botoes">
+<button style="font-size: 40px;" onclick="comprar('Anão Venezualo', 299)" id="compra">Comprar</button>
+<button style="font-size:18px;" onclick="adicionar('Anão Venezualo', 299)"id='adicionando' >Adicionar ao Carrinho</button>
+
+</div>
+
+<p id="mensagem" style="font-size: 25px;"></p>
+
+</div>
+
+<div  class="produto">
+    <h1>Squirtle Estiloso</h1>
+    <img src="https://sm.ign.com/ign_pt/screenshot/default/blob_2mkr.jpg" >
+    <h2>R$100,00</h2>
+    <h2 id="estoque2">Estoque:8</h2>
+    <div class="botoes">
+    <button style="font-size: 40px;"  onclick="comprar('Squirtle Estiloso', 100)" id="compra2">Comprar</button>
+    <button style="font-size: 18px;" onclick="adicionar('Squirtle',100)" id="adicionando2">Adicionar ao Carrinho</button>
+    </div>
+    <p id="mensagem2" style="font-size: 25px"></p>
+</div>
+</div>
+
+</body>
+
+<script src="pagina.js">
+    
+</script>
+</html>
